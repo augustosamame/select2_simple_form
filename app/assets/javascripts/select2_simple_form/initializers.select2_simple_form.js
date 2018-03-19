@@ -41,7 +41,7 @@ var Select2SimpleForm = (function($) {
 
     // Allow for HTML markup to show properly in the resulting options
     if (options.allow_html) {
-      var stripDiacritics = window.Select2.util.stripDiacritics;
+      //var stripDiacritics = window.Select2.util.stripDiacritics;
 
       // We're going to use a slight variation of Select2 markMatch function
       // to avoid matches inside html tags:
